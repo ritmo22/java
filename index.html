@@ -8,12 +8,115 @@
 
 <body>
     <script>
-        var temperature = 22;
-        var temperature2 = (9 / 5) * temperature + 32;
-        alert(temperature2);
-        var name = 'Василий';
-        var admin = name;
-        alert(admin)
+        var a = 1;
+        var b = 4;
+        if (a > 0 && b > 0) {
+            x = a - b
+            alert(x)
+        }
+        else if (a < 0 && b < 0) {
+            x = a * b
+            alert(x)
+        }
+        else if (a < 0 && b > 0 || a > 0 && b < 0) {
+            x = a - b
+            alert(x)
+        }
+    </script>
+    <script>
+        a = +prompt('введите число от 1 до 15');
+        switch (a) {
+        case 1:
+            alert('1');
+            break;
+        case 2:
+            alert('2');
+            break;
+        case 3:
+            alert('3');
+            break;
+        case 4:
+            alert('4');
+            break;
+        case 5:
+            alert('5');
+            break;
+        case 6:
+            alert('6');
+            break;
+        case 7:
+            alert('7');
+            break;
+        case 8:
+            alert('8');
+            break;
+        case 9:
+            alert('9');
+            break;
+        case 10:
+            alert('10');
+            break;
+        case 11:
+            alert('11');
+            break;
+        case 12:
+            alert('12');
+            break;
+        case 13:
+            alert('13');
+            break;
+        case 14:
+            alert('14');
+            break;
+        case 15:
+            alert('15');
+            break;
+        }
+    </script>
+    <script>
+        function addition(a, b) {
+            return a + b;
+        }
+        result1 = addition(12, 32);
+        alert(result1);
+
+        function subtraction(a, b) {
+            return a - b;
+        }
+        result2 = subtraction(22, 2);
+        alert(result2);
+
+        function division(a, b) {
+            return a / b;
+        }
+        result3 = division(222, 2);
+        alert(result3);
+
+        function multiplication(a, b) {
+            return a * b;
+        }
+        result4 = multiplication(22, 222);
+        alert(result4);
+    </script>
+
+    <script>
+        function mathOperation(arg1, arg2, operation)
+
+        switch(operation){
+            case 'addition':
+            return arg1 + arg2;
+                break;
+                case 'subtraction':
+                return arg1 - arg2;
+                break;
+                case 'division':
+                return arg1 / arg2;
+
+                break;
+            case 'multiplication':
+                return arg1 * arg2;
+                break; }
+
     </script>
 </body>
 
